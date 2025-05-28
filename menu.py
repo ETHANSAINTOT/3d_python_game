@@ -24,7 +24,7 @@ load_game_button.pack(side= "top", padx=30, pady=10)
 other_button = Button(window_menu, text = "Other", font=("Comic Sans Ms", 60), fg="white", bg="#59534e", width = 20)
 other_button.pack(side= "top", padx=30, pady=10)
 
-quit_button = Button(window_menu, text = "Quit", font=("Comic Sans Ms", 60), fg="white", bg="#59534e", width = 20)
+quit_button = Button(window_menu, text = "Quit", font=("Comic Sans Ms", 60), fg="white", bg="#59534e", width = 20, command=window_menu.destroy)
 quit_button.pack(side= "top", padx=30, pady=10)
 
 window_menu.mainloop()
